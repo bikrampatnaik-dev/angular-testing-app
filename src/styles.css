@@ -1,9 +1,9 @@
 /* Add application styles & imports to this file! */
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 
-body{
-  background-image: url(bg_1.jpg);
-}
+/* body{
+  background: url("https://stackblitz.com/files/angular-testing-bikram/github/bikrampatnaik-dev/angular-testing-app/master/src/app/bg_1.jpg");
+} */
 
 .cdk-overlay-pane {
   width: 98vw !important;
