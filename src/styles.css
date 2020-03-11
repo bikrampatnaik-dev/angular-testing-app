@@ -50,3 +50,29 @@ mat-option.mat-option:hover {
 .text-center {
   text-align: center !important;
 }
+
+.kt-login-v1__seaprator {
+    background-color: rgba(53, 41, 41, 0.44);
+    height: 450px;
+    width: 1px;
+    margin: auto;
+    float: left;
+    margin-left: 5vw;
+}
+
+.col-6{
+  width: 45%;
+}
+
+.col-1{
+  width: 0.2%;
+}
+
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+
+}
