@@ -1,0 +1,52 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.cdk-overlay-pane {
+  width: 98vw !important;
+}
+
+.mat-form-field {
+  width: 98vw;
+}
+
+.cardss {
+    position: absolute !important;
+    top: 0;
+    height: 100%;
+    border-radius: 0 !important;
+    width: 75vw;
+    right: 0px;
+    padding: 0 !important;
+    overflow-y: scroll;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.index-view {
+    width: 23vw;
+    float: left;
+    overflow-y: scroll;
+    height: 600px;
+}
+
+.mat-autocomplete-panel {
+    overflow: hidden !important;
+}
+
+.mat-autocomplete-panel {
+  max-height: 600px !important;
+  height: 600px;
+}
+
+.mat-radio-button{
+  width: 100%
+}
+mat-option.mat-option:hover {
+    background: #eee;
+}
+
+.text-center {
+  text-align: center !important;
+}
