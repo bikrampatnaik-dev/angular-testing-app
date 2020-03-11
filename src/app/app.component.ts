@@ -4,6 +4,8 @@ import { MatTableDataSource } from "@angular/material/table";
 import { FormControl, FormGroup } from "@angular/forms";
 import { MatSort } from "@angular/material/sort";
 import moment from "moment";
+import { of } from "rxjs";
+import { delay } from "rxjs/operators";
 
 export interface PeriodicElement {
   name: string;
@@ -46,7 +48,7 @@ export class AppComponent {
   date = new Date();
   utcDate;
   localDate;
-
+  mark$;
   displayedColumns: string[] = [
     "position",
     "name",
@@ -63,7 +65,13 @@ export class AppComponent {
     debugger;
     this.utcDate = moment.utc(this.date).format("MM-DD-YYYY, HH:mm");
     this.localDate = moment(this.date).format("MM-DD-YYYY, HH:mm");
-    
+
+    of("RADIOLOGY", "ED")
+      .pipe(delay(1000))
+      .subscribe(val => {
+        debugger;
+        this.mark$ = val;
+      });
 
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;

@@ -63,15 +63,50 @@
 	</mat-form-field>
 </form> -->
 
-
+<!-- 
 <mat-form-field class="col-6 float-left" appearance="fill">
 	<mat-label>UTC Date</mat-label>
 	<input type="text" matInput [(ngModel)]="utcDate">
 </mat-form-field>
 
-<div class="kt-login-v1__seaprator col-1"></div>
+<div class="kt-login-v1__seaprator "></div>
 
 	<mat-form-field class="col-6 float-right" appearance="fill">
 		<mat-label>Local Date</mat-label>
 		<input type="text" matInput [(ngModel)]="localDate">
-</mat-form-field>
+</mat-form-field> -->
+<div class="container d-flex h-75">
+	<div class="align-self-center w-100">
+		<div class="col-12  ">
+			<div class="row align-items-center">
+				<div class="col-md-6 col-lg-5 ml-auto">
+					<div class="text-light">
+						<h5>Oscar address the overall workflow
+							needs for Omega to handle
+							the<small style="margin: 0 5px;"> <mark *ngIf="mark$">mark$</mark> </small>coding.
+						</h5>
+						Suggestive Coding Tool
+					</div>
+				</div>
+
+				<div class="kt-login-v1__seaprator d-none d-lg-none d-lg-block d-xl-block"></div>
+
+				<div class="col-md-6 col-lg-5 ml-auto mt-4 mt-md-0 text-light">
+					<mat-form-field class="col-12" appearance="fill">
+						<mat-label class="text-light">UTC Date</mat-label>
+						<input type="text" matInput [(ngModel)]="utcDate">
+            </mat-form-field>
+
+						<mat-form-field class="col-12" appearance="fill">
+							<mat-label class="text-light">Local Date</mat-label>
+							<input type="text" matInput [(ngModel)]="localDate">
+            </mat-form-field>
+							<!-- <button mat-raised-button color="primary">Edit</button> -->
+							<div class="col-12">
+								<button mat-raised-button class="col-12" color="accent">Login</button>
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

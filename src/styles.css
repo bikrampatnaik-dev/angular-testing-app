@@ -4,7 +4,7 @@
 /* body{
   background: url("https://stackblitz.com/files/angular-testing-bikram/github/bikrampatnaik-dev/angular-testing-app/master/src/app/bg_1.jpg");
 } */
-
+/* 
 .cdk-overlay-pane {
   width: 98vw !important;
 }
@@ -53,30 +53,26 @@ mat-option.mat-option:hover {
 
 .text-center {
   text-align: center !important;
+} */
+body,html {
+  height: 100%;
 }
 
 .kt-login-v1__seaprator {
-    background-color: rgba(53, 41, 41, 0.44);
+    background-color: rgba(255, 255, 255, 0.44);
     height: 450px;
     width: 1px;
     margin: auto;
-    float: left;
-    margin-left: 5vw;
 }
 
-.col-6{
-  width: 45%;
+.mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: rgba(255, 255, 255, 0.16);
 }
 
-.col-1{
-  width: 0.2%;
-}
-
-.float-right{
-  float: right;
-}
-
-.float-left{
-  float: left;
-
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
